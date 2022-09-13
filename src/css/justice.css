@@ -767,6 +767,7 @@ color: #b49c73;
 .footer_links .footer_p p{
     color: white;
     letter-spacing: 3px;
+    margin-top:20px;
 
 }
 .footer_links .footer_p{
@@ -806,7 +807,7 @@ color: #b49c73;
 }
 .newsletter{
     width: 100%;
-    height: 220px;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items:center;
@@ -814,22 +815,25 @@ color: #b49c73;
     color: #b49c73;
 }
 .news{
-    height: 60px;
+    height: 50px;
     width:220px;
     display: flex;
     justify-content: flex-end;
     padding:5px;
+    align-items:center;
 }
 .news1{
-    height: 150px;
+    height: 120px;
     width:220px;
     display: flex;
     justify-content: flex-end;
 }
-.newsletter h2{
+.newsletter h1{
+    margin-right:20px;
     text-align: center;
 }
 .newsletter p{
+    margin-top:14px;
     color: white;
     letter-spacing: 3px;
     width: 210px;
