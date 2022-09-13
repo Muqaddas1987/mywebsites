@@ -787,6 +787,15 @@ color: #b49c73;
     font-family: Montserrat,sans-serif;
 }
 .footerh1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #b49c73;
+
+}
+.footerh2{
     width: 200px;
     height: 60px;
     display: flex;
@@ -818,9 +827,9 @@ color: #b49c73;
     height: 50px;
     width:220px;
     display: flex;
-    justify-content: flex-end;
+    justify-content:center;
     padding:5px;
-    align-items:center;
+    align-items:flex-start;
 }
 .news1{
     height: 120px;
